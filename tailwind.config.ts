@@ -9,7 +9,6 @@ const config: Config = {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
-  prefix: "",
   theme: {
     container: {
       center: true,
@@ -20,38 +19,38 @@ const config: Config = {
     },
     extend: {
       colors: {
-        border: "hsl(20 30% 16%)",
-        input: "hsl(20 30% 16%)",
-        ring: "hsl(43 96% 48%)",
-        background: "hsl(20 30% 8%)",
-        foreground: "hsl(43 96% 98%)",
+        border: "hsl(20, 30%, 16%)",
+        input: "hsl(20, 30%, 16%)",
+        ring: "hsl(43, 96%, 48%)",
+        background: "hsl(20, 30%, 8%)",
+        foreground: "hsl(43, 96%, 98%)",
         primary: {
-          DEFAULT: "hsl(43 96% 48%)",
-          foreground: "hsl(43 96% 98%)",
+          DEFAULT: "hsl(43, 96%, 48%)",
+          foreground: "hsl(43, 96%, 98%)",
         },
         secondary: {
-          DEFAULT: "hsl(20 30% 16%)",
-          foreground: "hsl(43 96% 98%)",
+          DEFAULT: "hsl(20, 30%, 16%)",
+          foreground: "hsl(43, 96%, 98%)",
         },
         destructive: {
-          DEFAULT: "hsl(0 62.8% 30.6%)",
-          foreground: "hsl(43 96% 98%)",
+          DEFAULT: "hsl(0, 62.8%, 30.6%)",
+          foreground: "hsl(43, 96%, 98%)",
         },
         muted: {
-          DEFAULT: "hsl(20 30% 16%)",
-          foreground: "hsl(43 30% 70%)",
+          DEFAULT: "hsl(20, 30%, 16%)",
+          foreground: "hsl(43, 30%, 70%)",
         },
         accent: {
-          DEFAULT: "hsl(20 30% 16%)",
-          foreground: "hsl(43 96% 98%)",
+          DEFAULT: "hsl(20, 30%, 16%)",
+          foreground: "hsl(43, 96%, 98%)",
         },
         popover: {
-          DEFAULT: "hsl(20 30% 8%)",
-          foreground: "hsl(43 96% 98%)",
+          DEFAULT: "hsl(20, 30%, 8%)",
+          foreground: "hsl(43, 96%, 98%)",
         },
         card: {
-          DEFAULT: "hsl(20 30% 8%)",
-          foreground: "hsl(43 96% 98%)",
+          DEFAULT: "hsl(20, 30%, 8%)",
+          foreground: "hsl(43, 96%, 98%)",
         },
       },
       borderRadius: {
