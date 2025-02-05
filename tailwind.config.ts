@@ -61,6 +61,6 @@ const config: Config = {
     },
   },
   plugins: [tailwindcssAnimate],
-}
+} satisfies Config
 
 export default config
