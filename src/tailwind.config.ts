@@ -1,3 +1,4 @@
+/* eslint @typescript-eslint/no-var-requires: "off" */
 import type { Config } from "tailwindcss";
 import tailwindAnimate from "tailwindcss-animate";
 
